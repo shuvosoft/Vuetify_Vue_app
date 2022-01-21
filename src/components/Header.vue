@@ -9,7 +9,7 @@
   >
     <v-toolbar-title>Vuetify App</v-toolbar-title>
     <v-list class="d-flex align-center">
-      <v-list-item link v-for="(menu,index) in menus" :key="index" :to="menu.route">
+      <v-list-item link v-for="(menu,index) in menus" :key="index" >
         <v-list-item-title>{{menu.title}}</v-list-item-title>
       </v-list-item>
       <v-btn text>
